@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">trabajo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Edward Torres</string>
+    <string name="nav_header_subtitle">Desarrollo de sotware III </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_calculadora">Calculadora</string>
+    <string name="menu_sonido">Sonido</string>
+    <string name="menu_sitioweb">Sitio web</string>
+    <string name="menu_apk">APK</string>
+    <string name="menu_calen">Calendario</string>
+    <string name="menu_indice">IMC</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".maravillas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:background="#ECD7D7"
+                android:text="7 maravillas del mundo"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                android:src="@drawable/maravillageneral" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="494dp"
+                android:text="Es la lista por excelencia que todo viajero empedernido quiere completar a lo largo de su vida. Un conjunto de monumentos histórico-artísticos que han sido elegidos por ciudadanos de todo el mundo el pasado 2007 y que suponen un referente en el mundo de los viajes. La idea surgió de la empresa privada New Open World Corporation, que quiso actualizar la lista original de las Siete Maravillas del Mundo Antiguo ya que, sólo la Gran pirámide de Guiza continúa hoy en pie.  En esta primera clasificación, creada en el siglo XVI y elaborada por el artista neerlandés Maerten van Heemskrerck, se representaron siete monumentos que, según el autor, por su historia y belleza había que visitar al menos una vez en la vida. Lo que en un principio fue una simple recomendación, para muchos ciudadanos de la época fueron considerados maravillas. Estos eran: los Jardines Colgantes de Babilonia, el mausoleo de Halicarnaso, el templo de Artemisa en Éfeso, el Coloso de Rodas, la estatua de Zeus en Olimpia, el faro de Alejandría y la Gran pirámide de Guiza.  Varios terremotos y el vandalismo redujeron la mayoría de ellos a escombros, por lo que en el 2007 se decidió que había que actualizar esta lista de maravillas y que, esta vez, serían los ciudadanos quienes recomendasen las obras que debían de estar en la lista de las 7 maravillas del mundo moderno. La elección se hizo a través de un sistema de votos en el que participaron más de cien millones de personas de todo el mundo. La única condición fue que, todos ellos debían de haber sido construidos antes del año 2000 y que hoy aún estuvieran en pie. Estos fueron los monumentos seleccionados." />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custon_button"
+                android:text="machupicchu"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="24sp"
+                app:drawableTint="@color/colorPrimaryDark" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/machupicchu" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:text="El 7 de julio de 2007, Machu Picchu fue elegida una de las Nuevas 7 Maravillas del Mundo Moderno; estas fueron elegidas por más de 100 millones de personas de todo el mundo, a través de una votación abierta por Internet; las maravillas se dieron a conocer en orden aleatorio por la New Open World Corporation (NOWC)."
+                tools:text="El 7 de julio de 2007, Machu Picchu fue elegida una de las Nuevas 7 Maravillas del Mundo Moderno; estas fueron elegidas por más de 100 millones de personas de todo el mundo, a través de una votación abierta por Internet; las maravillas se dieron a conocer en orden aleatorio por la New Open World Corporation (NOWC)" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_launcher_background"
+                android:text="TextView"
+                android:textSize="24sp"
+                tools:text="Coliseo Romano" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/coliseoromano" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El Coliseo de Roma, una de las nuevas siete maravillas del mundo. El Coliseo fue elegido anoche en el sexto puesto entre las nuevas siete maravillas del mundo, junto a la Gran Muralla china, las ruinas de Petra (Jordania), el Cristo Redentor (Brasil), Machu Picchu (Perú), Chichen Itza (México) y el Taj Mahal (India)."
+                tools:text="El Coliseo de Roma, una de las nuevas siete maravillas del mundo. El Coliseo fue elegido anoche en el sexto puesto entre las nuevas siete maravillas del mundo, junto a la Gran Muralla china, las ruinas de Petra (Jordania), el Cristo Redentor (Brasil), Machu Picchu (Perú), Chichen Itza (México) y el Taj Mahal (India)." />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

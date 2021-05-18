@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calculador"
+            android:icon="@drawable/cal"
+            android:title="@string/menu_calculadora" />
+        <item
+            android:id="@+id/nav_sonid"
+            android:icon="@drawable/sonido"
+            android:title="@string/menu_sonido" />
+        <item
+            android:id="@+id/nav_sitiowe"
+            android:icon="@drawable/web"
+            android:title="@string/menu_sitioweb" />
+        <item
+            android:id="@+id/nav_ap"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_apk" />
+        <item
+
+            android:id="@+id/nav_imc"
+            android:icon="@drawable/calen"
+            android:title="@string/menu_indice" />
+        <item
+
+            android:id="@+id/maravillas"
+            android:icon="@drawable/calen"
+            android:title="maravillas" />
+    </group>
+
+
+</menu>
